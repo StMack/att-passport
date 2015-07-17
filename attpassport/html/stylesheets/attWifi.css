@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+body {color: #666666; font-family: 'omnes-regular'; font-size: 16px}
+body a:after { content:none; }
+
+@font-face {
+    font-family: 'omnes-regular';
+    src: url('../fonts/omnes-regular/omnesatt-regular-webfont.eot');
+    src: url('../fonts/omnes-regular/omnesatt-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omnes-regular/omnesatt-regular-webfont.woff') format('woff'),
+         url('../fonts/omnes-regular/omnesatt-regular-webfont.ttf') format('truetype'),
+         url('../fonts/omnes-regular/omnesatt-regular-webfont.svg#omnes-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'omnes-regular';
+    src: url('../fonts/omnes-regular-italic/omnesatt-regularitalic-webfont.eot');
+    src: url('../fonts/omnes-regular-italic/omnesatt-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omnes-regular-italic/omnesatt-regularitalic-webfont.woff') format('woff'),
+         url('../fonts/omnes-regular-italic/omnesatt-regularitalic-webfont.ttf') format('truetype'),
+         url('../fonts/omnes-regular-italic/omnesatt-regularitalic-webfont.svg#omnes-regularitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'omnes-medium';
+    src: url('../fonts/omnes-medium/omnesatt-medium-webfont.eot');
+    src: url('../fonts/omnes-medium/omnesatt-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omnes-medium/omnesatt-medium-webfont.woff') format('woff'),
+         url('../fonts/omnes-medium/omnesatt-medium-webfont.ttf') format('truetype'),
+         url('../fonts/omnes-medium/omnesatt-medium-webfont.svg#omnes-medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'omnes-medium';
+    src: url('../fonts/omnes-medium-italic/omnesatt-mediumitalic-webfont.eot');
+    src: url('../fonts/omnes-medium-italic/omnesatt-mediumitalic-webfont?#iefix') format('embedded-opentype'),
+         url('../fonts/omnes-medium-italic/omnesatt-mediumitalic-webfont.woff') format('woff'),
+         url('../fonts/omnes-medium-italic/omnesatt-mediumitalic-webfont.ttf') format('truetype'),
+         url('../fonts/omnes-medium-italic/omnesatt-mediumitalic-webfont.svg#omnes-mediumitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+p {font-family: 'omnes-regular'; font-size: 16px}
+h1, h2, h3, h4, h5 {font-family: 'omnes-medium'}
+.orange {color:#ef6f00;}
+.blue {color:#067ab4;}
+.green {color:#4ca90c;}
+a {color:#067ab4;}
+sup {font-size: .6em; vertical-align: top;}
+.globe {
+	width:50px;
+	height:50px;
+	background-image:url(../images/att_globe_rgb_grd.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.buttons {text-align: center; margin-top: 1.5em}
+.buttons img {width:90%; margin: .5em auto}
+
+.button {background: #067ab4; 
+background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #067AB4),
+    color-stop(1, #69AFD2)
+);
+background-image: -o-linear-gradient(top, #067AB4 0%, #69AFD2 100%);
+background-image: -moz-linear-gradient(top, #067AB4 0%, #69AFD2 100%);
+background-image: -webkit-linear-gradient(top, #067AB4 0%, #69AFD2 100%);
+background-image: -ms-linear-gradient(top, #067AB4 0%, #69AFD2 100%);
+background-image: linear-gradient(to top, #067AB4 0%, #69AFD2 100%);
+    font-family: 'omnes-medium'; font-weight: normal; margin:.5em 0;}
+    
+.button.radius {
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-ms-border-radius: 10px;
+-o-border-radius: 10px;
+border-radius: 10px;
+}
+
+.legal {margin-top: 2em}
+.legal p {font-size: .75em}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
