@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.orange {color:#f47b20;}
+.blue {color:#0096d6;}
+.green {color:#80c342;}
+
+.globe {
+	width:50px;
+	height:50px;
+	background-image:url(../images/att_globe_rgb_grd.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}

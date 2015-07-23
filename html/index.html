@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>AT&amp;T Passport App</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/attWifi.css">
+  
+  
+  <!-- Included CSS Files (Compressed) 
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">-->
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+<!-- This is the device detection for the live site it is commented out for dev testing only
+
+  <script type="text/javascript"> // <![CDATA[
+	if ( (navigator.userAgent.indexOf('iPhone') != -1) ) {
+		document.location = "http://www.attwifiabroad.com/iosDevices/";
+	} // ]]>
+	if ( (navigator.userAgent.indexOf('iPad') != -1) ) {
+		document.location = "http://www.attwifiabroad.com/iosDevices/";
+	} // ]]>
+	if ( (navigator.userAgent.indexOf('iPod') != -1) ) {
+		document.location = "http://www.attwifiabroad.com/iosDevices/";
+	} // ]]>
+	if ( (navigator.userAgent.indexOf('Android') != -1) ) {
+		document.location = "http://www.attwifiabroad.com/androidDevices/";
+	} // ]]>
+</script>
+ -->
+
+<!-- This is the device detection for the dev testing only Delete this and uncomment above when going live -->
+ 
+
+  <script type="text/javascript"> // <![CDATA[
+  if ( (navigator.userAgent.indexOf('iPhone') != -1) ) {
+    document.location = "iosDevices/";
+  } // ]]>
+  if ( (navigator.userAgent.indexOf('iPad') != -1) ) {
+    document.location = "iosDevices/";
+  } // ]]>
+  if ( (navigator.userAgent.indexOf('iPod') != -1) ) {
+    document.location = "iosDevices/";
+  } // ]]>
+  if ( (navigator.userAgent.indexOf('Android') != -1) ) {
+    document.location = "androidDevices/";
+  } // ]]>
+</script>
+
+</head>
+<body>
+    <div class="row" style="margin-top:10px;">
+    	<div class="three mobile-three columns"></div>
+        <div class="one mobile-one column" style="text-align:right;">
+        <img src="images/att_globe_rgb_grd.png" width="50" height="50" border="0" alt="AT&amp;T Globe" >
+        </div>
+    </div>
+    <div class="row">
+    	<div class="four mobile-four columns" style="text-align:center; margin-top:12px;">
+        	<img src="images/passport.png" width="242" height="75" border="0" alt="AT&amp;T International Wi&#8209;Fi">
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="four mobile-four columns" style="text-align:center; margin-top:18px;">        
+      <h2>Learn more about the AT&amp;T Passport<sup>SM</sup> app <br>for your device:</h2>
+      <a href="androidDevices/"><img src="buttons/androidBtn.png" border="0"></a><br /><br>
+    <a href="iosDevices/"><img src="buttons/iosBtn.png" border="0"></a><br />
+      </div>
+    </div>
+    
+    <div class="row">
+    	<div class="four mobile-four columns legal">
+        	<p><a href="http://www.att.com/gen/privacy-policy?pid=2587">&copy;2015 AT&amp;T Intellectual Property</a>. All rights reserved. AT&amp;T, the AT&amp;T logo and all other AT&amp;T marks contained herein are trademarks of AT&amp;T Intellectual Property and/or AT&amp;T affiliated companies. All other marks contained herein are the property of their respective owners.</p>
+        </div>
+    </div> 
+  
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  
+  <script src="javascripts/modernizr.foundation.js"></script>
+  
+  <script src="javascripts/jquery.js"></script>
+  
+  <script src="javascripts/jquery.foundation.reveal.js"></script>
+  
+  <script src="javascripts/jquery.foundation.orbit.js"></script>
+  
+  <script src="javascripts/jquery.foundation.navigation.js"></script>
+  
+  <script src="javascripts/jquery.foundation.buttons.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tabs.js"></script>
+  
+  <script src="javascripts/jquery.foundation.forms.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tooltips.js"></script>
+  
+  <script src="javascripts/jquery.foundation.accordion.js"></script>
+  
+  <script src="javascripts/jquery.placeholder.js"></script>
+  
+  <script src="javascripts/jquery.foundation.alerts.js"></script>
+  
+  -->
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="javascripts/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="javascripts/app.js"></script>
+</body>
+</html>
